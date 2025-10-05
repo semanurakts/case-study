@@ -16,7 +16,7 @@ interface Product {
   };
 }
 
-// ⭐ STAR RATING COMPONENT - YARIM YILDIZ DESTEKLİ
+// STAR RATING COMPONENT - YARIM YILDIZ DESTEKLİ
 const StarRating: React.FC<{ 
   rating: number; 
   onRatingChange?: (rating: number) => void 
@@ -75,7 +75,7 @@ const StarRating: React.FC<{
 };
 
 
-// 🎨 COLOR PICKER COMPONENT
+// COLOR PICKER COMPONENT
 const ColorPicker: React.FC<{ selectedColor: string; onColorChange: (color: string) => void }> = ({
   selectedColor,
   onColorChange,

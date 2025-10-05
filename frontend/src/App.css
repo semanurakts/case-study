@@ -254,7 +254,7 @@
 /* Mobile */
 @media (max-width: 768px) {
   .carousel-wrapper {
-    flex-direction: row; /* sütun yerine yan yana */
+    flex-direction: row; 
     align-items: center;
     position: relative;
   }
@@ -276,15 +276,15 @@
   }
 
   .arrow.left {
-    left: 5px; /* görselin hemen solunda */
+    left: 5px;
   }
 
   .arrow.right {
-    right: 5px; /* görselin hemen sağında */
+    right: 5px; 
   }
 
   .product-carousel {
-    padding: 10px 50px; /* oklar için boşluk */
+    padding: 10px 50px; 
     gap: 15px;
   }
 }

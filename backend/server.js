@@ -10,12 +10,11 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// GERÇEK ALTIN FİYATI API'Sİ - GÜNCELLENMİŞ
+// GERÇEK ALTIN FİYATI API'Sİ 
 const getGoldPrice = async () => {
   try {
     console.log('🔄 Altın fiyatı alınıyor...');
     
-    // MetalPriceAPI yerine daha basit bir API deneyelim
     const response = await axios.get('https://api.metals.live/v1/spot/gold');
     
     console.log('API Response:', response.data);
@@ -39,12 +38,11 @@ const getGoldPrice = async () => {
     return pricePerGram;
   } catch (error) {
     console.log('Altın API hatası, gerçekçi değer kullanılıyor:', error.message);
-    // Gerçekçi fallback değer
     return 68.42;
   }
 };
 
-// Fiyat hesaplama - DEBUG EKLİ
+// Fiyat hesaplama 
 const calculatePrice = (popularityScore, weight, goldPrice) => {
   console.log('Fiyat hesaplanıyor:', {
     popularityScore: popularityScore,
@@ -58,7 +56,7 @@ const calculatePrice = (popularityScore, weight, goldPrice) => {
   return calculated;
 };
 
-// Tüm ürünleri getir - DEBUG EKLİ
+// Tüm ürünleri getir 
 app.get('/api/products', async (req, res) => {
   try {
     console.log('Ürünler isteği alındı');
@@ -106,7 +104,7 @@ app.get('/api/gold-price', async (req, res) => {
   }
 });
 
-// Filtreleme endpoint'i (BONUS)
+// Filtreleme endpoint'i 
 app.get('/api/products/filter', async (req, res) => {
   try {
     const { minPrice, maxPrice, minRating } = req.query;

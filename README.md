@@ -3,9 +3,18 @@
 **Renart Staj Programı Full-Stack Projesi**
 
 ## 🚀 Canlı Demo
-- **Frontend:**
-- **Backend API:**
-- **API Test:**
+
+- **Frontend (Vercel):** [https://case-study-roan.vercel.app/](https://case-study-roan.vercel.app/)
+
+<img src="case-study-photo.png">
+
+- **Backend (Railway):** [https://case-study-production.up.railway.app](https://case-study-production.up.railway.app)
+
+### ⚡ Test Endpoints
+
+- **Test API** → [https://case-study-production.up.railway.app/api/test](https://case-study-production.up.railway.app/api/test)
+- **Products API** → [https://case-study-production.up.railway.app/api/products](https://case-study-production.up.railway.app/api/products)
+- **Gold Price API** → [https://case-study-production.up.railway.app/api/gold-price](https://case-study-production.up.railway.app/api/gold-price)
 
 ## 📋 Proje Özeti 
 
@@ -91,23 +100,27 @@ vercel --prod
 ```bash
 # Backend (.env)
 PORT=5000
-FRONTEND_URL=https://your-app.vercel.app
+FRONTEND_URL= https://case-study-roan.vercel.app
 
 # Frontend (.env)
-REACT_APP_API_URL=https://your-api.railway.app
+REACT_APP_API_URL= https://case-study-production.up.railway.app
 ```
 
 ## 📞 İletişim
 
 - **Geliştirici:** Sema Nur Aktaş 
-- **E-posta:** [semanurakts1@gmail.com](mailto:semanurakts1@gmail.com)
 - **LinkedIn:** [https://www.linkedin.com/in/semanuraktas/](https://www.linkedin.com/in/semanuraktas/) 
 - **GitHub:** [https://github.com/semanurakts](https://github.com/semanurakts)
 
 **Proje Linkleri:**  
-- 🌐 **Frontend:** [https://your-app.vercel.app](https://your-app.vercel.app)
-- 🔗 **Backend API:** [https://your-api.railway.app](https://your-api.railway.app)
-- 📂 **GitHub Repository:** [https://github.com/yourusername/product-listing-app](https://github.com/yourusername/product-listing-app)
+- 🌐 **Frontend:** [https://case-study-roan.vercel.app/](https://case-study-roan.vercel.app/)
+- 🔗 **Backend API:** [https://case-study-production.up.railway.app/api/test](https://case-study-production.up.railway.app/api/test)
+- 📂 **GitHub Repository:** [https://github.com/semanurakts/case-study](https://github.com/semanurakts/case-study)
 
 **Teknik Sorular İçin:**  
 Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz için yukarıdaki iletişim kanallarından bana ulaşabilirsiniz.
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bf8b0e3 (Update project files: frontend, backend, README and config)
