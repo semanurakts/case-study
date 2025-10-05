@@ -111,5 +111,3 @@ REACT_APP_API_URL=https://your-api.railway.app
 
 **Teknik Sorular İçin:**  
 Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz için yukarıdaki iletişim kanallarından bana ulaşabilirsiniz.
-
-# Case Study Project
