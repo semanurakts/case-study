@@ -119,8 +119,3 @@ REACT_APP_API_URL= https://case-study-production.up.railway.app
 
 **Teknik Sorular İçin:**  
 Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz için yukarıdaki iletişim kanallarından bana ulaşabilirsiniz.
-<<<<<<< HEAD
-=======
-
-
->>>>>>> bf8b0e3 (Update project files: frontend, backend, README and config)
