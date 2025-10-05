@@ -1,1 +1,14 @@
-".env" 
+# Root-level node_modules (varsa)
+node_modules/
+
+# Backend node_modules
+/backend/node_modules/
+
+# Frontend node_modules
+/frontend/node_modules/
+
+# OS / IDE dosyaları
+.DS_Store
+*.log
+.env
+
