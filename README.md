@@ -117,5 +117,7 @@ REACT_APP_API_URL= https://case-study-production.up.railway.app
 - 🔗 **Backend API:** [https://case-study-production.up.railway.app/api/test](https://case-study-production.up.railway.app/api/test)
 - 📂 **GitHub Repository:** [https://github.com/semanurakts/case-study](https://github.com/semanurakts/case-study)
 
+**Not:** Backend Railway free plan üzerinden deploy edilmiştir. İlk yüklemede birkaç saniyelik gecikme yaşanabilir.
+
 **Teknik Sorular İçin:**  
 Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz için yukarıdaki iletişim kanallarından bana ulaşabilirsiniz.
